@@ -1,0 +1,163 @@
+
+
+/*Código armado por La Foca Loca S.A. No modificar*/
+body {
+  font-family: Arial, sans-serif;
+  margin: 5% auto;
+  min-height: 100%;
+  background-image: url(../images/fondo.png);
+}
+ul {
+  padding-left: 0;
+  list-style: none;
+}
+li {
+  padding: 5px 0;
+}
+li::before {
+  content: "→ ";
+  color: #00fff2;
+}
+
+.col-40, .col-60 {
+  background: yellow;
+  display: table-cell;
+  padding: 0px;
+  color: #000;
+  border: 1px solid #610B0B;
+  background: #BCF5A9;
+  opacity: 0.9;
+  margin-top: 1%;
+  border-radius: 20px;
+
+}
+
+.col-40 {
+
+  float: left;
+  width: 23%;
+  border: 5px solid #00fff2;
+  padding: 20px 20px 10px 20px;
+  background: #999797;
+  opacity: 0.8;
+  margin: 10px;
+  margin-top: 11%;
+  border-radius: 20px;
+  margin-left: 100px;
+
+
+}
+
+.col-60 {
+
+   margin-top: 1%;
+  margin-bottom: 1%;
+  float: right;
+  border: 5px solid #00fff2;
+  background: #999797;
+  opacity: 0.8;
+  border-radius: 20px;
+   width: 606px;
+  height: 606px;
+  margin-bottom: 200px;
+  margin-right: 150px;
+  
+
+}
+
+#juego div {
+
+  text-align: center;
+  animation: fadein 2s;
+
+}
+
+@keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+#título h1 {
+
+  margin-right: 50px;
+  margin-left: auto;
+  background: red;
+  padding: auto;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-size: 200px;
+}
+
+#título h3 {
+
+  color: red;
+  border-bottom: 1px dotted #00fff2;
+
+}
+
+
+img {
+
+  height: 200px;
+  width: 200px;
+  float: left;
+  border: 1px solid #00fff2;
+  border-radius: 10px;
+
+}
+
+h1 {
+
+  color: #00fff2;
+  background: transparent;
+  padding-left: 60px;
+  margin: 10px 20px 0px 7px;
+  width: 94%;
+  font-family: old english text mt, sans-serif;
+}
+
+h3 {
+
+  color: #00fff2;
+  background: transparent;
+  padding: 10px 3px 4px 5px;
+  margin: 30px 20px 0px 7px;
+  width: 94%;
+  font-family: old english text mt, sans-serif;
+  padding-left: 90px;
+
+}
+
+li {
+
+  padding: 10px 30px 10px 20px;
+  border: 2px solid #00fff2;
+  background: #999797;
+  margin: 10px 30px 10px 15px;
+  color: black;
+  background:
+}
+
+html {
+
+  cursor : url(../images/bolita.gif), auto;
+
+}
+
+embed {
+
+  float: left;
+  width: 15%;
+
+  opacity: 0.7;
+  margin-right: 0px;
+  position: fixed;
+  padding-bottom: 100px;
+}
+
+.piezas {
+  width: 200px;
+  height: 200px;
+  border: 1px solid black;
+  float: left;
+}
